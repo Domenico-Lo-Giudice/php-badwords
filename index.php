@@ -1,3 +1,8 @@
+<?php
+$user_name = "Domenico";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,6 +18,6 @@
     <title>PHP Badwords</title>
   </head>
   <body>
-    <h1>Funziona!</h1>
+    <h1>Ciao <?php echo $user_name ?> </h1>
   </body>
 </html>
