@@ -13,17 +13,24 @@
     <title>PHP Badwords</title>
   </head>
   <body>
-    <h1>Non dire parolacce... o chiamo la polizia!</h1>
+    <h1>Attento a quello che scrivi, signorin*!</h1>
     <form
       method="GET"
       action="./censura.php"
     >
-      <label for="username">Username</label>
+      <label for="paragrafo">Paragrafo</label>
       <input
         type="text"
-        id="username"
-        name="username"
+        id="paragrago"
+        name="paragrafo"
       />
+      <label for="parolaccia">Parolaccia</label>
+      <input
+        type="text"
+        id="parolaccia"
+        name="parolaccia"
+      />
+
       <button>Invia</button>
     </form>
   </body>
