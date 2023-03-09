@@ -1,8 +1,3 @@
-<?php
-$user_name = "Domenico";
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,6 +13,18 @@ $user_name = "Domenico";
     <title>PHP Badwords</title>
   </head>
   <body>
-    <h1>Ciao <?php echo $user_name ?> </h1>
+    <h1>Non dire parolacce... o chiamo la polizia!</h1>
+    <form
+      method="GET"
+      action="./censura.php"
+    >
+      <label for="username">Username</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+      />
+      <button>Invia</button>
+    </form>
   </body>
 </html>
